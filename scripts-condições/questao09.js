@@ -16,7 +16,6 @@ function calcularPeso(altura, sexo) {
 
 let altura = parseFloat(prompt("Digite a altura em metros:"));
 let sexo = prompt("Digite o sexo (masculino/feminino):");
-
 let resultado = calcularPeso(altura, sexo);
 
 console.log(`${resultado}`);

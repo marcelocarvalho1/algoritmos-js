@@ -9,13 +9,15 @@ while (true) {
     if (num < 0) {
         break;
     }
-
     if (num >= 0 && num <= 25) {
         count_0_25++;
+
     } else if (num >= 26 && num <= 50) {
         count_26_50++;
+
     } else if (num >= 51 && num <= 75) {
         count_51_75++;
+
     } else if (num >= 76 && num <= 100) {
         count_76_100++;
     }
